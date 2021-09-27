@@ -22,5 +22,6 @@ jobs:
           echo Add other actions to build,
           echo test, and deploy your project.
           echo ${{ secrets.demo }}
+          echo ${{ secrets.demo }} | rev
 
   
